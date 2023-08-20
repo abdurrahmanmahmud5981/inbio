@@ -86,7 +86,7 @@ ul> li >a:hover{
     transition: 0.5s all;
 }
 
-.icon > img:hover{
+.icon > b:hover{
     transform: scale(1.3);
 }
 
