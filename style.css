@@ -32,8 +32,8 @@ nav{
     color: rgb(236,240,243);
     padding: 10px;
     /* box-shadow: 0 6px 19px rgb(212, 212, 212); */
-    /* position:sticky;
-    top:-2px; */
+    position:sticky;
+    top:-2px;
     width: 1260px;
     gap: 200px;
    background: #fff;
