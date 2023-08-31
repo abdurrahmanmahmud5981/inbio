@@ -32,7 +32,6 @@ nav{
     color: rgb(236,240,243);
     padding: 10px;
     position:sticky;
-    width: 100vw;
     top:-2px;
     max-height: 10%;
     gap: 8%;
