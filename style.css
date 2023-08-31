@@ -337,10 +337,7 @@ img{
     box-sizing: border-box;
     transition: 0.8s;
 }
-.box8  .box2 img:hover{
-    /* transform: rotate3d(1, 0, 0, 360deg);  */
-    transform: scale(1.1);
-}
+
 .category-info{
     display: flex;
     justify-content: space-between;
