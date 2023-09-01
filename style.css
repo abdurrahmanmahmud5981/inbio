@@ -20,10 +20,7 @@
     --greyLight-3: #bec8e4;
     --greyDark: #9baacf;
   }
-  /* $shadow: .3rem .3rem .6rem var(--greyLight-2), 
--.2rem -.2rem .5rem var(--white);
-$inner-shadow: inset .2rem .2rem .5rem var(--greyLight-2), 
-inset -.2rem -.2rem .5rem var(--white); */
+ 
 /*************************************************** navbar--start*************************************************/
 nav{
     display: flex;
@@ -320,36 +317,32 @@ img{
 }
 .box2{
     width: 45%;
-    height: 500px;
+    height: 450px;
     border-radius: 10px;
-    padding: 35px 0px;
-    margin: 0 auto;
+    padding: 35px 35px;
     background:linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-    overflow: hidden;
-    
-
 }
 .box8  .box2 img{
     display: block;
-    width: 90%;
+    width: 100%;
     box-sizing: border-box;
     transition: 0.8s;
+    margin: 0;
 }
-
+.box8  .box2 img:hover{
+    transform: scale(1.1);
+}
 .category-info{
     display: flex;
+    margin: 0;
     justify-content: space-between;
     align-items: center;
-    width: 565px;
-    text-align: left;
-    gap: 260px;
-    height: 50px;
     margin-top: 30px;
     text-transform: uppercase;
 }
 .category-list{
-    margin-left: 1.3rem;
+    margin: 0;
     color:#ff014f;
     font-weight: 500;
     font-size: 12px;
@@ -358,32 +351,33 @@ img{
     cursor: pointer;
 
 
+
 }
 
 .category-info .post-like{
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 5px;
+    margin: 0;
 }
 .category-info .post-like >svg{
     display: block;
     width: 20px;
     cursor: pointer;
-    
+    margin: 0;
     
 }
 .category-info .post-like > span{
-    width: 10px;
+    margin: 0;
 }
 .box2 > p {
-    margin-left: 1.3rem;
     font-weight: 600;
-    font-size: 23px;
+    font-size: 22px;
     line-height: 34px;
     color: #493240;
     cursor: pointer;
     transition: 0.4s;
+    margin-top: 20px;
 }
 .box2 > p:hover{
     color: #ff014f;
@@ -421,6 +415,11 @@ img{
 }
 .client-name a{
     color: #000000;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.client-name a:hover{
+    color: #ff014f;
 }
 .thumbnail{
     height: 180px;
@@ -438,3 +437,202 @@ img{
     padding: 30px;
 }
 
+
+
+
+.contact-area{
+    width: 1260px;
+    display: flex;
+    gap: 20px;
+    margin-bottom:60px ;
+    /* margin: 0; */
+}
+.contact-area .first{
+    width: 30%;
+    height: 700px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 30px;
+    background:linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+}
+.contact-area .first .thumbnail > img{
+    width: 100%;
+    display: block;
+    height: 100%;
+    margin: 0;
+}
+
+.contact-area .title-area{
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+.contact-area .title-area .title{
+    font-size: 29px;
+    line-height: 44px;
+    margin-bottom: 9px;
+    color: #1e2125;
+}
+.contact-area .title-area .title span{
+    display: block;
+    color: #3c3e41;
+    opacity: 0.9;
+}
+.description{
+    margin-bottom: 30px;
+    color: #3c3e41;
+}
+.description > p{
+    font-size: 18px;
+    line-height: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.description span{
+    display: block;
+    margin-bottom: 10px;
+    color: #3c3e41;
+
+
+}
+.description span a {
+    color: #3c3e41;
+    transition: 0.4s;
+    font-weight: 400;
+    position: relative;
+
+}
+.description span a:hover{
+    color: #ff014f;
+   
+}
+/* .description span a:hover::before{
+         content: "";
+        position: absolute;
+        width: 100%;
+        background: #ff014f;
+        height: 2px;
+        left:0px;
+        bottom: -2px;
+        z-index: 10; 
+        
+
+} */
+.social-area .name{
+    color: #1e2125;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 18px;
+
+}
+.social-area .social-icone  a svg{
+    display: inline-block;
+    margin-top: 24px;
+transition: 0.4s;
+    width: 61px;
+    height: 61px;
+    line-height: 62px;
+    margin-right: 15px;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    background:linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 15px 15px 25px #D1D9E6, -15px -15px 25px #ffffff;
+}
+.social-area .social-icone  a:hover svg{
+    background: linear-gradient(145deg, #6a67ce,#fc636b);
+    fill:white;
+}
+
+
+
+.sacound{
+    width: 70%;
+    height: 700px;
+    box-sizing: border-box;
+    background:linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    padding: 30px;
+    /* margin: 0; */
+}
+.sacound .contact1{
+    display: flex;
+    justify-content: center;
+    /* margin: 0; */
+    gap:50px ;
+}
+.sacound .contact-name input{
+    /* margin: 0; */
+    border: none;
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    height: 55px;
+    padding: 0 15px;
+    font-size: 18px;
+    background: #fdfefe;
+    outline: none;
+    text-transform: capitalize;
+
+    border: 2px solid #dce1e4;
+    color: #3c3e41!important;
+
+}
+.sacound .contact-name input:focus{
+    outline: none;
+}
+
+.sacound label{
+    margin: 0;
+
+    font-size: 12px;
+    /* color: #a0a8b3; */
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    margin-top: 10px;
+    text-align: left;
+    display: block;
+}
+textarea{
+    width: 100%;
+    resize: none;
+    border: none;
+    font-size: 28px;
+    background: #fdfefe;
+    outline: none;
+    text-transform: capitalize;
+    border: 2px solid #dce1e4;
+    color: #3c3e41!important;
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    /* height: 55px; */
+    padding: 10px 15px;
+}
+.sacound button{
+    width: 100%;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #000000;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+    height: 55px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+}
+.sacound button:hover{
+    color: white;
+}
+footer{
+    text-align: center;
+    margin-bottom: 50px;
+}
+footer p > a{
+    color:#3c3e41;
+}
