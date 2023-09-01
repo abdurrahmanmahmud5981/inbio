@@ -507,7 +507,7 @@ img{
     color: #ff014f;
    
 }
-/* .description span a:hover::before{
+ .description span a:hover::before{
          content: "";
         position: absolute;
         width: 100%;
@@ -518,7 +518,7 @@ img{
         z-index: 10; 
         
 
-} */
+} 
 .social-area .name{
     color: #1e2125;
     font-size: 14px;
